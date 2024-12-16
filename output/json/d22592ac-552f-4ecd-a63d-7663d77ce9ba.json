@@ -1,0 +1,130 @@
+{
+    "demographics": {
+        "name": "Mr. Jos\u00e9 Eduardo181 G\u00f3mez206",
+        "date_of_birth": "6/22/1989",
+        "age": 30,
+        "gender": "Male",
+        "address": {
+            "city": "Chicopee",
+            "state": "Massachusetts"
+        },
+        "insurance": "Guardian"
+    },
+    "encounter": {
+        "date": "March 7, 2020",
+        "time": "12:56-14:13",
+        "provider_id": "f59948a6-b07a-3248-9661-60f5924b644b",
+        "facility_id": "5d4b9df1-93ae-3bc9-b680-03249990e558"
+    },
+    "conditions": [
+        {
+            "code": "E66.9",
+            "description": "Obesity"
+        },
+        {
+            "code": "R73.03",
+            "description": "Prediabetes"
+        },
+        {
+            "code": "S42.01",
+            "description": "Clavicle fracture"
+        },
+        {
+            "code": "U07.1",
+            "description": "COVID-19"
+        }
+    ],
+    "medications": [
+        {
+            "code": "0054-0353",
+            "description": "Meperidine Hydrochloride 50 MG"
+        },
+        {
+            "code": "0031-2234",
+            "description": "Acetaminophen 325 MG"
+        }
+    ],
+    "immunizations": null,
+    "vitals": {
+        "current": {
+            "temperature": {
+                "code": "8310-5",
+                "value": 42.0,
+                "unit": "\u00b0C"
+            },
+            "heart_rate": {
+                "code": "8867-4",
+                "value": 87.9,
+                "unit": "beats/min"
+            },
+            "blood_pressure": {
+                "systolic": {
+                    "code": "8480-6",
+                    "value": 113.0,
+                    "unit": "mmHg"
+                },
+                "diastolic": {
+                    "code": "8462-4",
+                    "value": 83.0,
+                    "unit": "mmHg"
+                }
+            },
+            "respiratory_rate": {
+                "code": "9279-1",
+                "value": 20.9,
+                "unit": "breaths/min"
+            },
+            "oxygen_saturation": {
+                "code": "59408-5",
+                "value": 83.5,
+                "unit": "%"
+            },
+            "weight": {
+                "code": "29463-7",
+                "value": 94.7,
+                "unit": "kg"
+            }
+        },
+        "baseline": null
+    },
+    "laboratory": {
+        "covid19": {
+            "code": "94500-6",
+            "description": "SARS-CoV-2 RNA (COVID-19), PCR",
+            "result": "Positive"
+        },
+        "respiratory_panel": {
+            "influenza_a": {
+                "code": "14056-2",
+                "result": "Negative"
+            },
+            "influenza_b": {
+                "code": "14058-8",
+                "result": "Negative"
+            },
+            "rsv": null,
+            "parainfluenza_1": null,
+            "parainfluenza_2": null,
+            "parainfluenza_3": null,
+            "rhinovirus": null,
+            "metapneumovirus": null,
+            "adenovirus": null
+        }
+    },
+    "procedures": [
+        {
+            "code": "71020",
+            "description": "Chest X-ray",
+            "date": "9/13/2019",
+            "reasonCode": "S42.01",
+            "reasonDescription": "Clavicle fracture"
+        },
+        {
+            "code": "99222",
+            "description": "Admission to orthopedic department",
+            "date": "9/13/2019",
+            "reasonCode": "S42.01",
+            "reasonDescription": "Clavicle fracture"
+        }
+    ]
+}

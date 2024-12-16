@@ -1,0 +1,148 @@
+{
+    "demographics": {
+        "name": "Jimmie Harris",
+        "date_of_birth": "1/9/2004",
+        "age": 16,
+        "gender": "Female",
+        "address": {
+            "city": "Pembroke",
+            "state": "MA"
+        },
+        "insurance": "Medicare/Medicaid"
+    },
+    "encounter": {
+        "date": "March 2, 2020",
+        "time": "04:15-05:15",
+        "provider_id": "8be741d6-44d0-3412-88dd-4987e1559f0b",
+        "facility_id": "b1ddf812-1fdd-3adf-b1d5-32cc8bd07ebb"
+    },
+    "conditions": null,
+    "medications": [
+        {
+            "code": "Jolivette",
+            "description": "oral contraceptive"
+        }
+    ],
+    "immunizations": [
+        {
+            "code": "Influenza vaccine",
+            "description": "Influenza vaccine",
+            "date": "2/21/2020"
+        },
+        {
+            "code": "Meningococcal vaccine",
+            "description": "Meningococcal vaccine",
+            "date": "2/21/2020"
+        }
+    ],
+    "vitals": {
+        "current": {
+            "temperature": {
+                "code": "Temperature",
+                "value": 40.7,
+                "unit": "\u00b0C"
+            },
+            "heart_rate": {
+                "code": "Heart Rate",
+                "value": 98.0,
+                "unit": "/min"
+            },
+            "blood_pressure": {
+                "systolic": {
+                    "code": "Systolic",
+                    "value": 120.0,
+                    "unit": "mmHg"
+                },
+                "diastolic": {
+                    "code": "Diastolic",
+                    "value": 89.0,
+                    "unit": "mmHg"
+                }
+            },
+            "respiratory_rate": {
+                "code": "Respiratory Rate",
+                "value": 22.0,
+                "unit": "/min"
+            },
+            "oxygen_saturation": {
+                "code": "O2 Saturation",
+                "value": 78.2,
+                "unit": "%"
+            },
+            "weight": {
+                "code": "Weight",
+                "value": 45.3,
+                "unit": "kg"
+            }
+        },
+        "baseline": {
+            "date": "2/21/2020",
+            "height": {
+                "code": "Height",
+                "value": 149.3,
+                "unit": "cm"
+            },
+            "weight": {
+                "code": "Weight",
+                "value": 45.3,
+                "unit": "kg"
+            },
+            "bmi": {
+                "code": "BMI",
+                "value": 20.3,
+                "unit": "kg/m2"
+            },
+            "bmi_percentile": {
+                "code": "BMI Percentile",
+                "value": 47.6,
+                "unit": "%"
+            }
+        }
+    },
+    "laboratory": {
+        "covid19": {
+            "code": "COVID-19 PCR",
+            "description": "COVID-19 PCR",
+            "result": "POSITIVE"
+        },
+        "respiratory_panel": {
+            "influenza_a": {
+                "code": "Influenza A",
+                "result": "Negative"
+            },
+            "influenza_b": {
+                "code": "Influenza B",
+                "result": "Negative"
+            },
+            "rsv": {
+                "code": "RSV",
+                "result": "Negative"
+            },
+            "parainfluenza_1": {
+                "code": "Parainfluenza 1",
+                "result": "Negative"
+            },
+            "parainfluenza_2": {
+                "code": "Parainfluenza 2",
+                "result": "Negative"
+            },
+            "parainfluenza_3": {
+                "code": "Parainfluenza 3",
+                "result": "Negative"
+            },
+            "rhinovirus": {
+                "code": "Rhinovirus",
+                "result": "Negative"
+            },
+            "metapneumovirus": {
+                "code": "Human metapneumovirus",
+                "result": "Negative"
+            },
+            "adenovirus": {
+                "code": "Adenovirus",
+                "result": "Negative"
+            }
+        }
+    },
+    "procedures": null
+}

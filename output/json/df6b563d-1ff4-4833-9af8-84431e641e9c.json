@@ -1,0 +1,173 @@
+{
+    "demographics": {
+        "name": "Ms. Brown",
+        "date_of_birth": "9/29/1982",
+        "age": 37,
+        "gender": "Female",
+        "address": {
+            "city": "Boston",
+            "state": "MA"
+        },
+        "insurance": "Medicare/Medicaid"
+    },
+    "encounter": {
+        "date": "March 13, 2020",
+        "time": "16:12-17:11",
+        "provider_id": "d76028b8-d23f-346e-abd0-65995aec66c8",
+        "facility_id": "df6b563d-1ff4-4833-9af8-84431e641e9c"
+    },
+    "conditions": [
+        {
+            "code": "J43.9",
+            "description": "Pulmonary emphysema"
+        },
+        {
+            "code": "I10",
+            "description": "Hypertension"
+        },
+        {
+            "code": "T78.40XA",
+            "description": "Allergy to unspecified food"
+        }
+    ],
+    "medications": [
+        {
+            "code": "C03AA03",
+            "description": "Hydrochlorothiazide 12.5 MG daily"
+        },
+        {
+            "code": "R03AK06",
+            "description": "Fluticasone/Salmeterol 250/50 mcg inhaler BID"
+        }
+    ],
+    "immunizations": [
+        {
+            "code": "90656",
+            "description": "Influenza vaccine",
+            "date": "3/11/2020"
+        }
+    ],
+    "vitals": {
+        "current": {
+            "temperature": {
+                "code": "8310-5",
+                "value": 40.6,
+                "unit": "C"
+            },
+            "heart_rate": {
+                "code": "8867-4",
+                "value": 179.0,
+                "unit": "beats/min"
+            },
+            "blood_pressure": {
+                "systolic": {
+                    "code": "8480-6",
+                    "value": 106.0,
+                    "unit": "mmHg"
+                },
+                "diastolic": {
+                    "code": "8462-4",
+                    "value": 78.0,
+                    "unit": "mmHg"
+                }
+            },
+            "respiratory_rate": {
+                "code": "9279-1",
+                "value": 24.0,
+                "unit": "breaths/min"
+            },
+            "oxygen_saturation": {
+                "code": "59408-5",
+                "value": 83.6,
+                "unit": "%"
+            },
+            "weight": {
+                "code": "29463-7",
+                "value": 59.9,
+                "unit": "kg"
+            }
+        },
+        "baseline": {
+            "date": "3/11/2020",
+            "height": null,
+            "weight": null,
+            "bmi": null,
+            "bmi_percentile": null
+        }
+    },
+    "laboratory": {
+        "covid19": {
+            "code": "94500-6",
+            "description": "SARS-CoV-2 (COVID-19) PCR",
+            "result": "POSITIVE"
+        },
+        "respiratory_panel": {
+            "influenza_a": {
+                "code": "140731000119108",
+                "result": "Negative"
+            },
+            "influenza_b": {
+                "code": "140732007",
+                "result": "Negative"
+            },
+            "rsv": {
+                "code": "140733002",
+                "result": "Negative"
+            },
+            "parainfluenza_1": {
+                "code": "140734008",
+                "result": "Negative"
+            },
+            "parainfluenza_2": {
+                "code": "140735009",
+                "result": "Negative"
+            },
+            "parainfluenza_3": {
+                "code": "140736005",
+                "result": "Negative"
+            },
+            "rhinovirus": {
+                "code": "140737001",
+                "result": "Negative"
+            },
+            "metapneumovirus": {
+                "code": "140738006",
+                "result": "Negative"
+            },
+            "adenovirus": {
+                "code": "140739003",
+                "result": "Negative"
+            }
+        }
+    },
+    "procedures": [
+        {
+            "code": "0BH17EZ",
+            "description": "Insertion of Face Mask into Mouth and Nose, Via Natural or Artificial Opening",
+            "date": "March 13, 2020",
+            "reasonCode": "U07.1",
+            "reasonDescription": "COVID-19"
+        },
+        {
+            "code": "5A09357",
+            "description": "Monitoring of Respiratory System, Continuous",
+            "date": "March 13, 2020",
+            "reasonCode": "U07.1",
+            "reasonDescription": "COVID-19"
+        },
+        {
+            "code": "3E033VJ",
+            "description": "Introduction of Other Therapeutic Substance into Respiratory Tract, Via Natural or Artificial Opening",
+            "date": "March 13, 2020",
+            "reasonCode": "U07.1",
+            "reasonDescription": "COVID-19"
+        },
+        {
+            "code": "0JH60DZ",
+            "description": "Insertion of Endotracheal Airway into Trachea, Open Approach",
+            "date": "May 13, 2020",
+            "reasonCode": "J43.9",
+            "reasonDescription": "Pulmonary emphysema"
+        }
+    ]
+}

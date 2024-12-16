@@ -1,0 +1,94 @@
+{
+    "demographics": {
+        "name": "Gregorio Auer",
+        "date_of_birth": "11/15/1996",
+        "age": 23,
+        "gender": "Male",
+        "address": {
+            "city": "Boston",
+            "state": "MA"
+        },
+        "insurance": "Medicare/Medicaid"
+    },
+    "encounter": {
+        "date": "03/03/2020",
+        "time": "00:58-02:19",
+        "provider_id": "6ba172e8-ae6d-3c6c-9f49-38096f9d1e1e",
+        "facility_id": "d78e84ec-30aa-3bba-a33a-f29a3a454662"
+    },
+    "conditions": [
+        {
+            "code": "U07.1",
+            "description": "COVID-19"
+        }
+    ],
+    "medications": null,
+    "immunizations": null,
+    "vitals": {
+        "current": {
+            "temperature": {
+                "code": "8310-5",
+                "value": 38.8,
+                "unit": "C"
+            },
+            "heart_rate": {
+                "code": "8867-4",
+                "value": 51.0,
+                "unit": "beats/min"
+            },
+            "blood_pressure": {
+                "systolic": {
+                    "code": "8480-6",
+                    "value": 116.0,
+                    "unit": "mmHg"
+                },
+                "diastolic": {
+                    "code": "8462-4",
+                    "value": 80.0,
+                    "unit": "mmHg"
+                }
+            },
+            "respiratory_rate": {
+                "code": "9279-1",
+                "value": 19.0,
+                "unit": "breaths/min"
+            },
+            "oxygen_saturation": {
+                "code": "59408-5",
+                "value": 77.6,
+                "unit": "%"
+            },
+            "weight": {
+                "code": "29463-7",
+                "value": 91.2,
+                "unit": "kg"
+            }
+        },
+        "baseline": null
+    },
+    "laboratory": {
+        "covid19": {
+            "code": "94500-6",
+            "description": "SARS-CoV-2 RNA Pnl Resp NAA+probe det (COVID-19)",
+            "result": "Positive"
+        },
+        "respiratory_panel": {
+            "influenza_a": {
+                "code": "14074004",
+                "result": "Negative"
+            },
+            "influenza_b": {
+                "code": "14168008",
+                "result": "Negative"
+            },
+            "rsv": null,
+            "parainfluenza_1": null,
+            "parainfluenza_2": null,
+            "parainfluenza_3": null,
+            "rhinovirus": null,
+            "metapneumovirus": null,
+            "adenovirus": null
+        }
+    },
+    "procedures": null
+}
